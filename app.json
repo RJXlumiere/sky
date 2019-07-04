@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/haha/haha",
+    "pages/xixi/xixi"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "返回",
+      "iconPath": "/images/houtui.png",
+      "selectedIconPath": "/images/houtui.png"
+    },
+  {"pagePath": "pages/haha/haha",
+    "text": "搜索",
+    "iconPath": "/images/sousuo.png",
+    "selectedIconPath": "/images/sousuo.png"
+  },
+  {
+  "pagePath": "pages/xixi/xixi",
+  "text": "前进",
+  "iconPath": "/images/qianjin.png",
+  "selectedIconPath": "/images/qianjin.png"
+  }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
